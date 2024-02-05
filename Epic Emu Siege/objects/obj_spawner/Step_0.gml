@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 timer--;
+diff_timer--;
 
 if(timer <= 0)
 {
@@ -11,7 +12,9 @@ if(timer <= 0)
 }
 
 
-
-
-
+if(diff_timer <= 0)
+{
+	time -= 20;
+	diff_timer = difficulty_time
+}
 
