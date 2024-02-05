@@ -12,6 +12,8 @@ if (x > room_width - sprite_width) {
 
 if(hp <= 0)
 {
+	obj_game_controller.cash += 25;
+	obj_game_controller.kills += 1;
 	instance_destroy();
 }
 
