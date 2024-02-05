@@ -11,7 +11,7 @@ if(timer <= 0)
 
 }
 
-
+// minimizes the delay between spawns
 if(diff_timer <= 0)
 {
 	time -= 20;
