@@ -4,3 +4,10 @@
 /// @DnDArgument : "speed" "-30"
 /// @DnDArgument : "type" "2"
 vspeed = -30;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 05B8F0D6
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "bullet_damage"
+bullet_damage = 1;
