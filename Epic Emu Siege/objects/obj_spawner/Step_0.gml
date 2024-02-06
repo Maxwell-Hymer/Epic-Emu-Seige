@@ -7,7 +7,7 @@ diff_timer--;
 if(timer <= 0)
 {
 	timer = time;
-	instance_create_layer(random(room_width), -123, "Instances",obj_emu); // Spawn the enemy above the room
+	instance_create_layer(random_range(22, 730), -123, "Instances",obj_emu); // Spawn the enemy above the room
 
 }
 

@@ -1,8 +1,12 @@
-/// @DnDAction : YoYo Games.Instances.Create_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 74C2A1ED
-/// @DnDArgument : "xpos_relative" "1"
-/// @DnDArgument : "ypos_relative" "1"
-/// @DnDArgument : "objectid" "obj_bullet"
-/// @DnDSaveInfo : "objectid" "obj_bullet"
-instance_create_layer(x + 0, y + 0, "Instances", obj_bullet);
+//checsk if user has pistol or rocket launcher, if so uses that fire pattern
+
+if(gun_type == 0)
+{
+	instance_create_layer(x + 0, y + 0, "Instances", obj_bullet);
+}
+else if(gun_type == 2)
+{
+	
+	instance_create_layer(x + 0, y + 0, "Instances", obj_rocket);
+	
+}
