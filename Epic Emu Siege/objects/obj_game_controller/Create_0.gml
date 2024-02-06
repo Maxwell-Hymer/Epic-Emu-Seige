@@ -5,6 +5,7 @@ cash = 600;
 
 kills = 0;
 
+global.ammo = 50; 
 
 
 
