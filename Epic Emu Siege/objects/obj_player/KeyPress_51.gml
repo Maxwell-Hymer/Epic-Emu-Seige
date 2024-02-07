@@ -1,16 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-if (cash == 15000) 
+if(have_rocket == true) 
 {
-	room_goto(game_win)
+	gun_type = 2;
+	sprite_index = spr_playerRocketLauncher;
 }
-
-
-
-
-
 
 
 

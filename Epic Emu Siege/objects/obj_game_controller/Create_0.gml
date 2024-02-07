@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-cash = 600;
+cash = 50;
 
 kills = 0;
 

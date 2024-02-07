@@ -7,5 +7,5 @@ obj_player.gun_type = 2;
 obj_game_controller.cash = obj_game_controller.cash - 850;
 //changes player sprite
 obj_player.sprite_index = spr_playerRocketLauncher;
-
+obj_player.have_rocket = true;
 }
